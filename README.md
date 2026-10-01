@@ -26,7 +26,6 @@
 
 ## 🎧 Escucha la diferencia
 
-
 <p align="center">
   
   https://github.com/user-attachments/assets/e832b84b-fe4f-4af2-b778-f19f41755deb
@@ -49,6 +48,10 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
 - **Probar micrófono**: graba tu voz y escucha la diferencia con y sin filtro.
 - Espectrogramas en vivo para ver el ruido antes y después.
 
+<p align="center">
+  <img src="assets/captura-app.png" alt="NyxVoice: supresión de ruido en vivo">
+</p>
+
 **Limpiar audio** (archivos y grabaciones)
 - Limpia **audios**: MP3, WAV, M4A, AAC, FLAC, OGG y MKA.
 - Limpia **videos**: MP4, MOV, MKV, AVI, WEBM y M4V. Mantiene la imagen original y solo cambia el sonido.
@@ -56,11 +59,11 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
 - Videos con varias pistas de audio: eliges cuál limpiar.
 - Puedes grabar directamente desde la app y escuchar el antes y después antes de guardar.
 
-**Privado:** todo se procesa en tu PC. Tu voz nunca se sube a internet.
-
 <p align="center">
-  <img src="assets/captura-app.png" alt="Captura de pantalla de NyxVoice">
+  <img src="assets/captura-limpiar-audio.png" alt="NyxVoice: Limpiar audio, comparación original y sin ruido">
 </p>
+
+**Privado:** todo se procesa en tu PC. Tu voz nunca se sube a internet.
 
 ---
 
