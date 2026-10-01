@@ -41,6 +41,11 @@ Compilación usada: https://github.com/BtbN/FFmpeg-Builds (win64-lgpl, n8.1).
 - emoji-icon-font: licencia MIT
 Textos completos a continuación.
 
+Logotipo de GitHub (botón "Ver en GitHub"): ícono "mark-github" de Octicons,
+Copyright (c) 2023 GitHub Inc., licencia MIT (texto igual al de
+"emoji-icon-font" más abajo, cambiando el titular). GitHub y su logotipo son
+marcas de GitHub, Inc.; se usan solo para enlazar a la página de NyxVoice.
+
 --- UFL.txt ---
 -------------------------------
 UBUNTU FONT LICENCE Version 1.0
