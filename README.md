@@ -33,7 +33,9 @@
 -->
 
 <p align="center">
-  <img src="assets/comparacion.png" alt="Comparación antes y después: espectrograma con ruido y espectrograma limpio con NyxVoice">
+  
+  https://github.com/user-attachments/assets/e832b84b-fe4f-4af2-b778-f19f41755deb
+
 </p>
 
 La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el ruido de fondo baja de **−34 dB a −83 dB**: prácticamente desaparece, y la voz se mantiene natural.
