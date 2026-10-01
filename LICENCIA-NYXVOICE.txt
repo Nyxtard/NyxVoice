@@ -1,0 +1,42 @@
+NyxVoice — Licencia de uso
+==========================
+
+© 2026 Nyxtard. Todos los derechos reservados.
+
+NyxVoice (el programa NyxVoice.exe, su diseño, sus textos, su ícono y su
+código fuente propio) es una obra de Nyxtard, protegida por las leyes de
+derechos de autor.
+
+1. Qué puedes hacer
+   - Instalar y usar NyxVoice en tus propios equipos, para uso personal o
+     profesional (por ejemplo, en llamadas, streaming, grabaciones o para
+     limpiar tus archivos de audio y video).
+   - Hacer copias de seguridad para tu propio uso.
+
+2. Qué no puedes hacer sin permiso escrito de Nyxtard
+   - Vender, alquilar, sublicenciar o cobrar de cualquier forma por NyxVoice.
+   - Redistribuirlo, publicarlo o compartirlo en otras páginas, tiendas o
+     plataformas como si fuera propio, ni presentarlo bajo otro nombre.
+   - Quitar o cambiar los avisos de autoría (como «Creado por Nyxtard» o este
+     aviso de derechos de autor).
+   - Modificar el programa para hacerlo pasar por otra aplicación.
+
+3. Componentes de terceros
+   NyxVoice incluye componentes de código abierto de otros autores (como
+   DeepFilterNet y FFmpeg), que se rigen por sus propias licencias, detalladas
+   en «LICENCIAS-DE-TERCEROS.txt». Nada en esta licencia limita los derechos
+   que esas licencias te otorgan sobre esos componentes. En particular, FFmpeg
+   (carpeta «ffmpeg») se distribuye bajo la licencia GNU LGPL v3: puedes
+   reemplazarlo por otra versión compatible y obtener su código fuente en
+   https://ffmpeg.org.
+
+4. Sin garantía
+   NyxVoice se ofrece «tal cual», sin garantías de ningún tipo. En la medida
+   que la ley lo permita, Nyxtard no se hace responsable de daños o pérdidas
+   derivados de su uso.
+
+5. Privacidad
+   NyxVoice procesa el audio y el video en tu propio equipo. No envía tu voz,
+   tus grabaciones ni tus archivos a ningún servidor.
+
+Contacto y permisos: https://github.com/Nyxtard
