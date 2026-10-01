@@ -48,7 +48,7 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
 - Quita en tiempo real ventiladores, teclado, mouse, aire acondicionado, tráfico, mascotas y otros ruidos de fondo.
 - Intensidad ajustable: desde una limpieza suave hasta eliminar todo el ruido.
 - **Compresor de voz** opcional, para un volumen más parejo.
-- **Modo de compatibilidad con navegadores**, para Google Meet y otras llamadas desde el navegador.
+- **Compatibilidad con navegadores** (opcional, apagada por defecto): solo para un caso especial; ver [preguntas frecuentes](#-preguntas-frecuentes).
 - **Probar micrófono**: graba tu voz y escucha la diferencia con y sin filtro.
 - Espectrogramas en vivo para ver el ruido antes y después.
 
@@ -120,6 +120,16 @@ No. NyxVoice funciona con el procesador (CPU) de cualquier PC moderna.
 <summary><b>¿Quita el eco de la habitación?</b></summary>
 
 No. NyxVoice elimina el **ruido de fondo**, pero no el eco o reverberación de la habitación. Para evitar que tu micrófono capte el sonido de tus parlantes, usa audífonos.
+</details>
+
+<details>
+<summary><b>¿Para qué sirve "Compatibilidad con navegadores"?</b></summary>
+
+Es una opción **especial y apagada por defecto**. **Actívala solo si te pasa esto:** al hablar o grabar desde una **página web** (por ejemplo Google Meet en el navegador) mientras tu PC reproduce otro sonido (un video de YouTube, música…), se escucha un **chillido**.
+
+Pasa con algunos audífonos, como el **Jabra Evolve 10**: parte del sonido de los audífonos llega al micrófono, y el cancelador de eco del navegador confunde tu voz con eco. Esta opción mantiene tu voz a un volumen fuerte y constante para que el navegador la reconozca como voz.
+
+**Si no te pasa, no la uses.** Tampoco hace falta en apps de escritorio como Discord, Zoom u OBS.
 </details>
 
 <details>
