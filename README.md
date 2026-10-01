@@ -26,11 +26,6 @@
 
 ## 🎧 Escucha la diferencia
 
-<!--
-  VIDEO CON SONIDO: edita este README en GitHub y arrastra aquí el archivo
-  "comparacion-nyxvoice.mp4". GitHub pondrá un enlace y se verá un
-  reproductor. Después borra este comentario.
--->
 
 <p align="center">
   
