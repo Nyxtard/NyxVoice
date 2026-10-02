@@ -16,7 +16,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows&logoColor=white" alt="Windows 10 y 11">
   <img src="https://img.shields.io/badge/precio-gratis-2ea44f" alt="Gratis">
-  <img src="https://img.shields.io/badge/versi%C3%B3n-0.2.0-40dcff" alt="Versión 0.2.0">
+  <img src="https://img.shields.io/badge/versi%C3%B3n-0.2.1-40dcff" alt="Versión 0.2.1">
   <a href="https://ko-fi.com/nyxtard"><img src="https://img.shields.io/badge/Ko--fi-ap%C3%B3yame-FF5E5B?logo=ko-fi&logoColor=white" alt="Apóyame en Ko-fi"></a>
 </p>
 
@@ -60,11 +60,14 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
 - **Ajusta el resultado al instante**, sin volver a procesar:
   - **Voz:** sube o baja solo la voz, sin subir el ruido.
   - **Fondo:** decide cuánto ambiente conservar, de casi nada al sonido original.
+  - **Compresor de voz:** iguala el volumen cuando hay partes más bajas y más fuertes, por ejemplo dos micrófonos distintos.
 - Puedes grabar directamente desde la app, escuchar el antes y después, y guardar también tu grabación **sin filtro**.
 
 <p align="center">
   <img src="assets/captura-limpiar-audio.png" alt="NyxVoice: Limpiar audio, comparación original y sin ruido">
 </p>
+
+**Ajustes:** elige el idioma (español o inglés) y si quieres ver los espectrogramas en "Limpiar audio".
 
 **Privado:** todo se procesa en tu PC. Tu voz nunca se sube a internet.
 
@@ -72,7 +75,7 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
 
 ## 📥 Descargar e instalar
 
-1. Ve a [**Releases**](https://github.com/Nyxtard/NyxVoice/releases/latest) y descarga **`NyxVoice-Setup-0.2.0.exe`**.
+1. Ve a [**Releases**](https://github.com/Nyxtard/NyxVoice/releases/latest) y descarga **`NyxVoice-Setup-0.2.1.exe`**.
 2. Ábrelo y sigue los pasos del instalador.
 3. Si Windows muestra **"Windows protegió tu PC"**, haz clic en **"Más información"** → **"Ejecutar de todas formas"**. Ver [preguntas frecuentes](#-preguntas-frecuentes).
 
