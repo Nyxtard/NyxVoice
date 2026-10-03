@@ -16,11 +16,11 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows&logoColor=white" alt="Windows 10 y 11">
   <img src="https://img.shields.io/badge/precio-gratis-2ea44f" alt="Gratis">
-  <img src="https://img.shields.io/badge/versi%C3%B3n-0.2.1-40dcff" alt="Versión 0.2.1">
+  <img src="https://img.shields.io/badge/versi%C3%B3n-0.3.0-40dcff" alt="Versión 0.3.0">
   <a href="https://ko-fi.com/nyxtard"><img src="https://img.shields.io/badge/Ko--fi-ap%C3%B3yame-FF5E5B?logo=ko-fi&logoColor=white" alt="Apóyame en Ko-fi"></a>
 </p>
 
-> **English:** NyxVoice is a free Windows app that removes background noise from your microphone in real time using AI (DeepFilterNet). It also cleans audio and video files. Works with Discord, Zoom, Google Meet, OBS and more. Created by **Nyxtard** (Carlos Navío Salcedo).
+> **English:** NyxVoice is a free Windows app that removes background noise from your microphone in real time using AI (DeepFilterNet). It also cleans audio and video files, runs quietly in the system tray and has a global hotkey (Ctrl + Alt + N). Works with Discord, Zoom, Google Meet, OBS and more. Created by **Nyxtard** (Carlos Navío Salcedo).
 
 ---
 
@@ -67,7 +67,14 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
   <img src="assets/captura-limpiar-audio.png" alt="NyxVoice: Limpiar audio, comparación original y sin ruido">
 </p>
 
-**Ajustes:** elige el idioma (español o inglés) y si quieres ver los espectrogramas en "Limpiar audio".
+**Siempre a mano**
+- **Funciona en segundo plano:** al cerrar la ventana, NyxVoice sigue quitando el ruido junto al reloj. Para salir del todo: clic derecho en su ícono → **Salir**.
+- **Ícono de estado:** en su color con el filtro activo; en gris con una raya roja, apagado.
+- **Atajo Ctrl + Alt + N:** activa o desactiva el filtro desde cualquier programa, incluso en un juego. Muestra un aviso en pantalla y suena un tono corto.
+- **Iniciar con Windows** (opcional): se abre escondido junto al reloj, con el filtro ya activado.
+- **Aviso de versión nueva:** te avisa cuando hay una actualización.
+
+**Ajustes:** idioma (español o inglés), inicio con Windows, atajo, avisos, ocultar las opciones que no uses y un registro de errores para cuando necesites ayuda.
 
 **Privado:** todo se procesa en tu PC. Tu voz nunca se sube a internet.
 
@@ -75,7 +82,7 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
 
 ## 📥 Descargar e instalar
 
-1. Ve a [**Releases**](https://github.com/Nyxtard/NyxVoice/releases/latest) y descarga **`NyxVoice-Setup-0.2.1.exe`**.
+1. Ve a [**Releases**](https://github.com/Nyxtard/NyxVoice/releases/latest) y descarga **`NyxVoice-Setup-0.3.0.exe`**.
 2. Ábrelo y sigue los pasos del instalador.
 3. Si Windows muestra **"Windows protegió tu PC"**, haz clic en **"Más información"** → **"Ejecutar de todas formas"**. Ver [preguntas frecuentes](#-preguntas-frecuentes).
 
@@ -141,7 +148,19 @@ Pasa con algunos audífonos, como el **Jabra Evolve 10**: parte del sonido de lo
 <details>
 <summary><b>¿Mi voz se sube a internet?</b></summary>
 
-No. Todo se procesa en tu PC, sin conexión.
+No. Todo se procesa en tu PC. Lo único que consulta la app en internet es el número de la última versión de NyxVoice en GitHub, para avisarte si hay una actualización; no envía ningún dato tuyo. Puedes desactivarlo en **Ajustes → General**.
+</details>
+
+<details>
+<summary><b>¿Tengo que tener la ventana abierta?</b></summary>
+
+No. Al cerrar la ventana, NyxVoice sigue funcionando junto al reloj y quitando el ruido. Puedes activar o desactivar el filtro con **Ctrl + Alt + N** o con clic derecho en su ícono. Para salir del todo: clic derecho en el ícono → **Salir**.
+</details>
+
+<details>
+<summary><b>¿Cómo sé si el filtro está activo?</b></summary>
+
+Mira el ícono de NyxVoice junto al reloj: **en su color**, el filtro está activo; **en gris con una raya roja**, está apagado. Al usar el atajo también aparece un aviso abajo de la pantalla.
 </details>
 
 <details>
