@@ -42,11 +42,12 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
 
 **Supresión de ruido en vivo**
 - Quita en tiempo real ventiladores, teclado, mouse, aire acondicionado, tráfico, mascotas y otros ruidos de fondo.
+- **Un solo botón para activarlo**, con el estado a la vista («Filtro activo» / «Filtro apagado») y qué elegir en Discord, Zoom o Meet.
 - Intensidad ajustable: desde una limpieza suave hasta eliminar todo el ruido.
-- **Compresor de voz** opcional, para un volumen más parejo.
-- **Compatibilidad con navegadores** (opcional, apagada por defecto): solo para un caso especial; ver [preguntas frecuentes](#-preguntas-frecuentes).
-- **Probar micrófono**: graba tu voz y escucha la diferencia con y sin filtro.
-- Espectrogramas en vivo para ver el ruido antes y después.
+- **Monitor en vivo:** medidores de volumen y espectrogramas **Antes** (con ruido) y **Después** (filtrado por NyxVoice).
+- **Probar micrófono:** graba unos segundos y compara al instante **con filtro** y **sin filtro**; puedes guardar la grabación.
+- **Compresor de voz** opcional, para un volumen más parejo (se muestra desde **Ajustes → Supresión de ruido**).
+- **Compatibilidad con navegadores** (opcional): solo para un caso especial; se muestra desde **Ajustes → Supresión de ruido**. Ver [preguntas frecuentes](#-preguntas-frecuentes).
 
 <p align="center">
   <img src="assets/captura-app.png" alt="NyxVoice: supresión de ruido en vivo">
@@ -57,6 +58,7 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
 - Limpia **videos**: MP4, MOV, MKV, AVI, WEBM y M4V. Mantiene la imagen original y solo cambia el sonido.
 - Sin límite de duración: sirve para podcasts, clases o streams de horas.
 - Videos con varias pistas de audio: eliges cuál limpiar.
+- **Compara** el original y el resultado con el video a la vista, y mira su **espectrograma** (opcional) para ver cuánto ruido se quitó.
 - **Ajusta el resultado al instante**, sin volver a procesar:
   - **Voz:** sube o baja solo la voz, sin subir el ruido.
   - **Fondo:** decide cuánto ambiente conservar, de casi nada al sonido original.
@@ -74,7 +76,12 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
 - **Iniciar con Windows** (opcional): se abre escondido junto al reloj, con el filtro ya activado.
 - **Aviso de versión nueva:** te avisa cuando hay una actualización.
 
-**Ajustes:** idioma (español o inglés), inicio con Windows, atajo, avisos, ocultar las opciones que no uses y un registro de errores para cuando necesites ayuda.
+**Se adapta a tu pantalla**
+- Funciona en **media pantalla** de Windows 11, al lado de Discord o de un juego.
+- En pantallas chicas o con el escalado de Windows, usa un **modo compacto** automático.
+- **Tamaño de la interfaz** ajustable (80 % a 150 %), también con **Ctrl +** y **Ctrl -**.
+
+**Ajustes ordenados por categorías:** Apariencia (idioma y tamaño), Inicio y bandeja, Atajo de teclado, Supresión de ruido, Limpiar audio, y Actualizaciones y ayuda (aviso de versión nueva y un registro de errores para cuando necesites ayuda).
 
 **Privado:** todo se procesa en tu PC. Tu voz nunca se sube a internet.
 
@@ -138,7 +145,7 @@ No. NyxVoice elimina el **ruido de fondo**, pero no el eco o reverberación de l
 <details>
 <summary><b>¿Para qué sirve "Compatibilidad con navegadores"?</b></summary>
 
-Es una opción **especial y apagada por defecto**. **Actívala solo si te pasa esto:** al hablar o grabar desde una **página web** (por ejemplo Google Meet en el navegador) mientras tu PC reproduce otro sonido (un video de YouTube, música…), se escucha un **chillido**.
+Es una opción **especial y oculta por defecto** (se muestra en **Ajustes → Supresión de ruido**). **Actívala solo si te pasa esto:** al hablar o grabar desde una **página web** (por ejemplo Google Meet en el navegador) mientras tu PC reproduce otro sonido (un video de YouTube, música…), se escucha un **chillido**.
 
 Pasa con algunos audífonos, como el **Jabra Evolve 10**: parte del sonido de los audífonos llega al micrófono, y el cancelador de eco del navegador confunde tu voz con eco. Esta opción mantiene tu voz a un volumen fuerte y constante para que el navegador la reconozca como voz.
 
@@ -148,7 +155,7 @@ Pasa con algunos audífonos, como el **Jabra Evolve 10**: parte del sonido de lo
 <details>
 <summary><b>¿Mi voz se sube a internet?</b></summary>
 
-No. Todo se procesa en tu PC. Lo único que consulta la app en internet es el número de la última versión de NyxVoice en GitHub, para avisarte si hay una actualización; no envía ningún dato tuyo. Puedes desactivarlo en **Ajustes → General**.
+No. Todo se procesa en tu PC. Lo único que consulta la app en internet es el número de la última versión de NyxVoice en GitHub, para avisarte si hay una actualización; no envía ningún dato tuyo. Puedes desactivarlo en **Ajustes → Actualizaciones y ayuda**.
 </details>
 
 <details>
