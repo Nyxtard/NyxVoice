@@ -65,6 +65,10 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
   - **Compresor de voz:** iguala el volumen cuando hay partes más bajas y más fuertes, por ejemplo dos micrófonos distintos.
 - Puedes grabar directamente desde la app, escuchar el antes y después, y guardar también tu grabación **sin filtro**.
 
+
+<p align="center">
+  <img src="assets/captura-limpiar-audiov1.png" alt="NyxVoice: Limpiar audio, comparación original y sin ruido">
+</p>
 <p align="center">
   <img src="assets/captura-limpiar-audio.png" alt="NyxVoice: Limpiar audio, comparación original y sin ruido">
 </p>
