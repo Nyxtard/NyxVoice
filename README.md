@@ -16,11 +16,11 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows&logoColor=white" alt="Windows 10 y 11">
   <img src="https://img.shields.io/badge/precio-gratis-2ea44f" alt="Gratis">
-  <img src="https://img.shields.io/badge/versi%C3%B3n-0.3.0-40dcff" alt="Versión 0.3.0">
+  <img src="https://img.shields.io/badge/versi%C3%B3n-0.4.0-40dcff" alt="Versión 0.4.0">
   <a href="https://ko-fi.com/nyxtard"><img src="https://img.shields.io/badge/Ko--fi-ap%C3%B3yame-FF5E5B?logo=ko-fi&logoColor=white" alt="Apóyame en Ko-fi"></a>
 </p>
 
-> **English:** NyxVoice is a free Windows app that removes background noise from your microphone in real time using AI (DeepFilterNet). It also cleans audio and video files, runs quietly in the system tray and has a global hotkey (Ctrl + Alt + N). Works with Discord, Zoom, Google Meet, OBS and more. Created by **Nyxtard** (Carlos Navío Salcedo).
+> **English:** NyxVoice is a free Windows app that removes background noise from your microphone in real time using AI (DeepFilterNet). It also cleans audio and video files (many at once, with whistle removal, static reduction and clarity controls), runs quietly in the system tray and has a global hotkey (Ctrl + Alt + N). Works with Discord, Zoom, Google Meet, OBS and more. Created by **Nyxtard** (Carlos Navío Salcedo).
 
 ---
 
@@ -48,29 +48,33 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
 - **Probar micrófono:** graba unos segundos y compara al instante **con filtro** y **sin filtro**; puedes guardar la grabación.
 - **Compresor de voz** opcional, para un volumen más parejo (se muestra desde **Ajustes → Supresión de ruido**).
 - **Compatibilidad con navegadores** (opcional): solo para un caso especial; se muestra desde **Ajustes → Supresión de ruido**. Ver [preguntas frecuentes](#-preguntas-frecuentes).
+- **El micrófono se enciende solo con el filtro activado.** Abrir NyxVoice o tenerlo junto al reloj no toca tus audífonos. Ver [preguntas frecuentes](#-preguntas-frecuentes).
 
 <p align="center">
   <img src="assets/captura-app.png" alt="NyxVoice: supresión de ruido en vivo">
 </p>
 
-**Limpiar audio** (archivos y grabaciones)
+**Limpiar grabación** (audios, videos y grabaciones)
 - Limpia **audios**: MP3, WAV, M4A, AAC, FLAC, OGG y MKA.
 - Limpia **videos**: MP4, MOV, MKV, AVI, WEBM y M4V. Mantiene la imagen original y solo cambia el sonido.
 - Sin límite de duración: sirve para podcasts, clases o streams de horas.
-- Videos con varias pistas de audio: eliges cuál limpiar.
+- **Varios archivos a la vez:** arrastra todos los que quieras y se arma una cola. Se limpian uno por uno mientras revisas los que ya están listos, y cada uno guarda sus propios ajustes.
+- **Guardar todos** de una vez: eliges el formato de los audios (WAV, MP3, FLAC o M4A, siempre en la mejor calidad) y la carpeta, y ves cuánto pesará cada archivo y el espacio libre del disco. El formato elegido es solo para los audios: los videos conservan la imagen tal cual y llevan sonido AAC.
+- Videos con varias pistas de audio: eliges cuál limpiar y qué guardar: el video, solo el audio o cada pista por separado.
 - **Compara** el original y el resultado con el video a la vista, y mira su **espectrograma** (opcional) para ver cuánto ruido se quitó.
 - **Ajusta el resultado al instante**, sin volver a procesar:
   - **Voz:** sube o baja solo la voz, sin subir el ruido.
   - **Fondo:** decide cuánto ambiente conservar, de casi nada al sonido original.
   - **Compresor de voz:** iguala el volumen cuando hay partes más bajas y más fuertes, por ejemplo dos micrófonos distintos.
-- Puedes grabar directamente desde la app, escuchar el antes y después, y guardar también tu grabación **sin filtro**.
-
+- **Ajustes avanzados**, también al instante:
+  - **Quitar pitidos:** encuentra tonos fijos, como un zumbido eléctrico o un acople, y te avisa solo si se siguen oyendo después de limpiar. Elige **Preciso** (corta el tono exacto) o **Amplio** (para pitidos que suben y bajan).
+  - **Reducir estática:** cinco niveles, de **Suave** a **Extremo**, para el siseo áspero de una mala grabación o de un video de redes muy comprimido.
+  - **Claridad:** 13 niveles para devolverle presencia a la voz sin subir el volumen; ideal después de una reducción de estática fuerte.
+- Graba directamente desde la app, una o varias grabaciones seguidas, escucha el antes y después, y guarda también tu grabación **sin filtro**.
+- Si cierras NyxVoice mientras limpia o guarda, te pregunta antes para que no pierdas nada.
 
 <p align="center">
-  <img src="assets/captura-limpiar-audiov1.png" alt="NyxVoice: Limpiar audio, comparación original y sin ruido">
-</p>
-<p align="center">
-  <img src="assets/captura-limpiar-audio.png" alt="NyxVoice: Limpiar audio, comparación original y sin ruido">
+  <img src="assets/captura-limpiar-audio.png" alt="NyxVoice: Limpiar grabación, comparación original y sin ruido">
 </p>
 
 **Siempre a mano**
@@ -85,7 +89,7 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
 - En pantallas chicas o con el escalado de Windows, usa un **modo compacto** automático.
 - **Tamaño de la interfaz** ajustable (80 % a 150 %), también con **Ctrl +** y **Ctrl -**.
 
-**Ajustes ordenados por categorías:** Apariencia (idioma y tamaño), Inicio y bandeja, Atajo de teclado, Supresión de ruido, Limpiar audio, y Actualizaciones y ayuda (aviso de versión nueva y un registro de errores para cuando necesites ayuda).
+**Ajustes ordenados por categorías:** Apariencia (idioma y tamaño), Inicio y bandeja, Atajo de teclado, Supresión de ruido, Limpiar grabación, y Actualizaciones y ayuda (aviso de versión nueva y un registro de errores para cuando necesites ayuda).
 
 **Privado:** todo se procesa en tu PC. Tu voz nunca se sube a internet.
 
@@ -93,7 +97,7 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
 
 ## 📥 Descargar e instalar
 
-1. Ve a [**Releases**](https://github.com/Nyxtard/NyxVoice/releases/latest) y descarga **`NyxVoice-Setup-0.3.0.exe`**.
+1. Ve a [**Releases**](https://github.com/Nyxtard/NyxVoice/releases/latest) y descarga **`NyxVoice-Setup-0.4.0.exe`**.
 2. Ábrelo y sigue los pasos del instalador.
 3. Si Windows muestra **"Windows protegió tu PC"**, haz clic en **"Más información"** → **"Ejecutar de todas formas"**. Ver [preguntas frecuentes](#-preguntas-frecuentes).
 
@@ -144,6 +148,14 @@ No. NyxVoice funciona con el procesador (CPU) de cualquier PC moderna.
 <summary><b>¿Quita el eco de la habitación?</b></summary>
 
 No. NyxVoice elimina el **ruido de fondo**, pero no el eco o reverberación de la habitación. Para evitar que tu micrófono capte el sonido de tus parlantes, usa audífonos.
+</details>
+
+<details>
+<summary><b>¿Por qué cambia el sonido de mis audífonos al activar el filtro?</b></summary>
+
+Muchos audífonos con micrófono, como los **Jabra**, cambian su sonido cuando una app enciende su micrófono: activan el «sidetone» (escucharte a ti mismo y al ambiente un poco por los audífonos) y lo que escuchas suena algo más fuerte. Pasa con cualquier app de llamadas, como Zoom o Discord.
+
+Por eso NyxVoice enciende el micrófono **solo mientras el filtro está activado**: con el filtro apagado, abrir la app no cambia nada. Si el sidetone te molesta, muchos audífonos permiten bajarlo o apagarlo desde su propia app (en Jabra, **Jabra Direct**).
 </details>
 
 <details>
