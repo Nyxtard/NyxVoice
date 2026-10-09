@@ -20,7 +20,7 @@
   <a href="https://ko-fi.com/nyxtard"><img src="https://img.shields.io/badge/Ko--fi-ap%C3%B3yame-FF5E5B?logo=ko-fi&logoColor=white" alt="Apóyame en Ko-fi"></a>
 </p>
 
-> **English:** NyxVoice is a free Windows app that removes background noise from your microphone in real time using AI (DeepFilterNet). It also cleans audio and video files (many at once, with whistle removal, static reduction and clarity controls), runs quietly in the system tray and has a global hotkey (Ctrl + Alt + N). Works with Discord, Zoom, Google Meet, OBS and more. Created by **Nyxtard** (Carlos Navío Salcedo).
+> **English:** NyxVoice is a free Windows app that removes background noise from your microphone in real time using AI (DeepFilterNet). It also cleans audio and video files (many at once, with whistle removal, static reduction, and clarity controls including AI high-frequency reconstruction), runs quietly in the system tray and has a global hotkey (Ctrl + Alt + N). Works with Discord, Zoom, Google Meet, OBS and more. Created by **Nyxtard** (Carlos Navío Salcedo).
 
 ---
 
@@ -69,7 +69,9 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
 - **Ajustes avanzados**, también al instante:
   - **Quitar pitidos:** encuentra tonos fijos, como un zumbido eléctrico o un acople, y te avisa solo si se siguen oyendo después de limpiar. Elige **Preciso** (corta el tono exacto) o **Amplio** (para pitidos que suben y bajan).
   - **Reducir estática:** cinco niveles, de **Suave** a **Extremo**, para el siseo áspero de una mala grabación o de un video de redes muy comprimido.
-  - **Claridad:** 13 niveles para devolverle presencia a la voz sin subir el volumen; ideal después de una reducción de estática fuerte.
+  - **Claridad:** devuelve presencia a una voz que quedó apagada, por ejemplo después de una reducción de estática fuerte, sin subir el volumen. Dos modos:
+    - **Normal:** 13 niveles, al instante.
+    - **IA:** una inteligencia artificial (AP-BWE) **reconstruye los agudos** que la voz perdió por la compresión del video. Se reconstruye una vez por archivo, en tu PC, y después eliges la **Intensidad** y cuánto **Suavizar agudos**, al instante.
 - Graba directamente desde la app, una o varias grabaciones seguidas, escucha el antes y después, y guarda también tu grabación **sin filtro**.
 - Si cierras NyxVoice mientras limpia o guarda, te pregunta antes para que no pierdas nada.
 
@@ -221,6 +223,7 @@ NyxVoice es gratuito, pero **no es de código abierto**: © 2026 Nyxtard (Carlos
 
 NyxVoice funciona gracias a estos proyectos de código abierto:
 - [**DeepFilterNet**](https://github.com/Rikorose/DeepFilterNet): el modelo de inteligencia artificial que elimina el ruido (licencias MIT / Apache 2.0).
+- [**AP-BWE**](https://github.com/yxlu-0102/AP-BWE) (Ye-Xin Lu y otros): la IA de «Claridad» → «IA», que reconstruye los agudos de la voz (licencia MIT).
 - [**FFmpeg**](https://ffmpeg.org) 8.1.3: para leer y guardar videos. Compilación LGPL v3 de [BtbN/FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds); [código fuente de esta versión](https://github.com/FFmpeg/FFmpeg/tree/n8.1.3).
 - Y otras librerías listadas en [LICENCIAS-DE-TERCEROS.txt](LICENCIAS-DE-TERCEROS.txt).
 
