@@ -44,6 +44,7 @@ La misma grabación, antes y después de pasar por NyxVoice. En las pausas, el r
 - Quita en tiempo real ventiladores, teclado, mouse, aire acondicionado, tráfico, mascotas y otros ruidos de fondo.
 - **Un solo botón para activarlo**, con el estado a la vista («Filtro activo» / «Filtro apagado») y qué elegir en Discord, Zoom o Meet.
 - Intensidad ajustable: desde una limpieza suave hasta eliminar todo el ruido.
+- **Reducir estática** opcional, por si todavía se escucha estática después de la supresión de ruido: cinco niveles, de **Suave** a **Extremo**. Viene apagado y se puede ocultar desde **Ajustes → Supresión de ruido**.
 - **Monitor en vivo:** medidores de volumen y espectrogramas **Antes** (con ruido) y **Después** (filtrado por NyxVoice).
 - **Probar micrófono:** graba unos segundos y compara al instante **con filtro** y **sin filtro**; puedes guardar la grabación.
 - **Compresor de voz** opcional, para un volumen más parejo (se muestra desde **Ajustes → Supresión de ruido**).
